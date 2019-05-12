@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import './style/index.scss';
+
+import Web3Wrapper from './components/web3Wrapper';
 
 ReactDOM.render(
-  <App />,
+  <Web3Wrapper />,
   document.getElementById('root'),
 );
