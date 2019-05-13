@@ -4,9 +4,7 @@ const {
   abi,
 } = bethsJson;
 
-const {
-  address,
-} = bethsJson.networks['1557627200236'];
+const address = '0x857192A55Bc4AEEd25035D483c8181EE7d30f88c';
 
 export {
   abi,
